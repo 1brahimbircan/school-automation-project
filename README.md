@@ -7,11 +7,12 @@
 ⭐ The project we have developed is a school automation project. We have used HTML, CSS, JS, PHP, and SQL structures to build this project, which includes 3 different login options: student login, teacher login, and administrator login. The project performs data retrieval, storage, update, and deletion operations.⭐
 
 ⭐ You can also contribute to and support this project. Have a nice day, everyone! ⭐
-#Login Page
+
+# Login Page
 ![1](https://raw.githubusercontent.com/1brahimbircan/Site_OkulOtomasyonProje/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-05-11%20212612.jpg)
-#Home Page
+# Home Page
 ![2](https://raw.githubusercontent.com/1brahimbircan/Site_OkulOtomasyonProje/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-05-11%20203530.jpg)
-#Student Login
+# Student Login
 1. Student Information
 2. Course Operations
  - Course Schedule
@@ -23,7 +24,7 @@
 
 ![3](https://raw.githubusercontent.com/1brahimbircan/Site_OkulOtomasyonProje/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-05-11%20203825.jpg)
 
-#Teacher Login
+# Teacher Login
 1. Teacher Operations
  - Add Grade
  - Add Student
