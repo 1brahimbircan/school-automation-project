@@ -35,7 +35,7 @@
  - Password Operations
 
 ![4](https://raw.githubusercontent.com/1brahimbircan/Site_OkulOtomasyonProje/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-05-11%20203949.jpg)
-#Administrator Login
+# Administrator Login
 1. Administrator Operations
  - Lesson Operations
  - Section Operations
@@ -50,7 +50,7 @@
 
 ![5](https://raw.githubusercontent.com/1brahimbircan/Site_OkulOtomasyonProje/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-05-11%20204143.jpg)
 
-#Database Table
+# Database Table
 ![6](https://raw.githubusercontent.com/1brahimbircan/Site_OkulOtomasyonProje/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-05-11%20215551.jpg)
 
 # 🅲🅾🅽🆃🅰🅲🆃 🅵🅾🆁 🅼🅴
