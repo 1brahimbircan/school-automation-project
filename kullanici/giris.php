@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>NOHU Otomasyon</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../assets/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../assets/vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <!-- endinject -->
+  <!-- Layout styles -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- End layout styles -->
+  <link rel="shortcut icon" href="../images/nohu.png" />
+</head>
+<body>
+  <div class="container-scroller">
+    <div class="container-fluid page-body-wrapper full-page-wrapper">
+      <div class="row w-100 m-0">
+        <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+          <div class="card col-lg-4 mx-auto">
+            <div class="card-body px-5 py-5">
+              <h3 class="card-title text-center mb-2 ">Giriş</h3>
+              
+              <form action="../nedmin/islem.php" method="POST" enctype="multipart/form-data">
+
+                <div class="form-group">
+                  <label>Okul no</label>
+                  <input required name="kulno" type="text" class="form-control p_input">
+                </div>
+                <div class="form-group">
+                  <label>Şifre</label>
+                  <input required name="sifre" type="password" class="form-control p_input">
+                </div>
+                <div class="form-group d-flex align-items-center justify-content-between">
+
+                </div>
+
+                <div class="text-center">
+                  <center>
+                  <button style="width: 150px; background-color: #008FA2 " name="girisyap" type="submit" class="btn  btn-block enter-btn">GİRİŞ YAP</button>
+                  </center>
+                </div>
+                <center>
+                 <?php 
+
+                 if (@$_GET['durum']=="hata") { ?>
+                  <h7  style="color:red">(Okul numaranızı veya sifrenizi yanlış girdiniz.)</h7>
+                <?php } ?>
+
+
+              </center>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- row ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+<!-- plugins:js -->
+<script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page -->
+<!-- End plugin js for this page -->
+<!-- inject:js -->
+<script src="../assets/js/off-canvas.js"></script>
+<script src="../assets/js/hoverable-collapse.js"></script>
+<script src="../assets/js/misc.js"></script>
+<script src="../assets/js/settings.js"></script>
+<script src="../assets/js/todolist.js"></script>
+<!-- endinject -->
+</body>
+</html>
